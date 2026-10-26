@@ -1,0 +1,43 @@
+{
+  "description": "3D starter: ground, physics props, water pond, player controller, custom shader",
+  "directories": [
+    "scenes",
+    "scripts",
+    "shaders",
+    "materials",
+    "textures",
+    "models",
+    "audio",
+    "animations",
+    "prefabs",
+    "fonts"
+  ],
+  "generate": [
+    {
+      "type": "png.grid",
+      "path": "textures/grid.png",
+      "size": 512,
+      "cells": 8,
+      "colors": [
+        "#9aa38a",
+        "#868f77"
+      ],
+      "line": "#6e7762"
+    },
+    {
+      "type": "png.flat_normal",
+      "path": "textures/flat_normal.png",
+      "size": 4
+    },
+    {
+      "type": "png.water_normal",
+      "path": "textures/water_normal.png",
+      "size": 512
+    },
+    {
+      "type": "png.noise",
+      "path": "textures/noise.png",
+      "size": 256
+    }
+  ]
+}

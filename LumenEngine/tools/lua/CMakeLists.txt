@@ -1,0 +1,6 @@
+add_executable(lumen-lua main.cpp)
+target_link_libraries(lumen-lua PRIVATE lumen_core)
+if(DEFINED LUMEN_LUA_INCLUDE_DIR)
+  target_include_directories(lumen-lua PRIVATE ${LUMEN_LUA_INCLUDE_DIR})
+endif()
+set_target_properties(lumen-lua PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

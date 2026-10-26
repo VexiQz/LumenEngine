@@ -1,0 +1,42 @@
+{
+  "format": "lumen-scene",
+  "version": 2,
+  "name": "main",
+  "environment": {
+    "sun": {
+      "azimuth": 35,
+      "elevation": 48,
+      "intensity": 6.0
+    },
+    "sky": {
+      "mode": "procedural"
+    },
+    "fog": {
+      "density": 0.008
+    }
+  },
+  "entities": [
+    {
+      "id": "c25d1045-470c-4496-b9c2-26e2ed52af83",
+      "name": "Camera",
+      "transform": {
+        "position": [
+          0,
+          2,
+          -6
+        ],
+        "rotation": [
+          10,
+          0,
+          0
+        ]
+      },
+      "camera": {
+        "fov": 60,
+        "near": 0.1,
+        "far": 2000,
+        "main": true
+      }
+    }
+  ]
+}

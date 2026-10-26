@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "hump":       {"description": "vrld/hump: helper utilities for LÖVE-style games (timer, vector, class, signal, camera)", "kind": "lua", "git": "https://github.com/vrld/hump.git", "ref": "master", "lua": ["."]},
+    "binser":     {"description": "bakpakin/binser: customizable Lua serializer", "kind": "lua", "git": "https://github.com/bakpakin/binser.git", "ref": "master", "lua": ["."]},
+    "tiny-ecs":   {"description": "bakpakin/tiny-ecs: entity component system for Lua", "kind": "lua", "git": "https://github.com/bakpakin/tiny-ecs.git", "ref": "master", "lua": ["."]},
+    "semver":     {"description": "kikito/semver.lua: semantic versioning", "kind": "lua", "git": "https://github.com/kikito/semver.lua.git", "ref": "master", "lua": ["."]},
+    "i18n":       {"description": "kikito/i18n.lua: internationalization", "kind": "lua", "git": "https://github.com/kikito/i18n.lua.git", "ref": "master", "lua": ["."]},
+    "bump":       {"description": "kikito/bump.lua: collision detection", "kind": "lua", "git": "https://github.com/kikito/bump.lua.git", "ref": "master", "lua": ["."]},
+    "anim8":      {"description": "kikito/anim8: animation library", "kind": "lua", "git": "https://github.com/kikito/anim8.git", "ref": "master", "lua": ["."]},
+    "spdlog":     {"description": "gabime/spdlog: fast C++ logging (header only mode)", "kind": "native", "git": "https://github.com/gabime/spdlog.git", "ref": "v1.14.1", "include": ["include"], "defines": ["SPDLOG_HEADER_ONLY=1"]},
+    "robin-hood": {"description": "martinus/robin-hood-hashing: fast hash map (header only)", "kind": "native", "git": "https://github.com/martinus/robin-hood-hashing.git", "ref": "3.11.5", "include": ["src/include"]},
+    "miniaudio":  {"description": "mackron/miniaudio: single file audio playback and capture", "kind": "native", "git": "https://github.com/mackron/miniaudio.git", "ref": "0.11.21", "include": ["."]}
+  }
+}

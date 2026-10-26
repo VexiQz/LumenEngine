@@ -1,0 +1,30 @@
+# Build output
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/compile_commands.json
+/Testing/
+
+# IDE and local configuration
+/.vs/
+*.suo
+*.user
+/CMakeUserPresets.json
+
+# Runtime-generated data
+/lumen_runtime/
+/logs/
+*.log
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db

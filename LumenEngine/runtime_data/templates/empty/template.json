@@ -1,0 +1,1 @@
+{ "description": "Empty project: one camera and one light", "directories": ["scenes","scripts","shaders","materials","textures","models","audio","animations","prefabs","fonts"] }

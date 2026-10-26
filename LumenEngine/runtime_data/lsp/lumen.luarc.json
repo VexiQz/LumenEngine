@@ -1,0 +1,9 @@
+{
+  "runtime": { "version": "Lua 5.4" },
+  "workspace": {
+    "library": ["lumen_runtime/lua/api"],
+    "checkThirdParty": false
+  },
+  "diagnostics": { "globals": ["lumen"] },
+  "completion": { "callSnippet": "Replace" }
+}
